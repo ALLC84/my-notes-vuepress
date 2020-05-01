@@ -1,6 +1,5 @@
 <template >
    <div>
-      {{data}}
       <main class="container">
          <article v-for="(item, index) in data" :key="index">
             <Card :data="item"/>
@@ -17,26 +16,6 @@
       props: [
          'data'
       ],
-      
-      data() {
-         return{
-            listNotes: []
-         }
-      },
-
-      methods: {
-         getNotes: async function() {
-            const data = await fetch('/data/data-notes.json');
-            const notes = await data.json();
-            this.listNotes = notes
-         }
-      },
-
-      mounted() {
-         // Se ejecuta al insertar el DOM
-         this.getNotes()
-      },
-
    }
 </script>
 

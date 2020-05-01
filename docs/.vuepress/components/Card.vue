@@ -3,7 +3,7 @@
    <div class="card">
       <div class="img-container">
          <router-link :to="data.path">
-            <img src="/images/go.jpg" />
+            <img :src="data.image" />
          </router-link>
       </div>
       <div class="body">
