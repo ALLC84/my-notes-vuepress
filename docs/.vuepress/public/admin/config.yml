@@ -16,8 +16,8 @@ display_url: https://codenotes.netlify.app/
 
 
 collections:
-  - name: "notes" # Used in routes, e.g., /admin/collections/blog
-    label: "Notes" # Used in the UI
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
     lang: es
     slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
@@ -33,9 +33,11 @@ collections:
 
   - name: 'home' # all the things in one entry, for documentation and quick testing
     label: 'Home Page'
+    folder: 'docs/'
     file: 'docs/README.md'
     create: false
     layout: HomeLayout
+    lang: es
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }   
       - { label: 'Description', name: 'description', widget: 'string' }   
