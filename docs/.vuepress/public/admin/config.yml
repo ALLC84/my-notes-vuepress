@@ -18,15 +18,13 @@ display_url: https://codenotes.netlify.app/
 collections:
   - name: "notes" # Used in routes, e.g., /admin/collections/blog
     label: "Notes" # Used in the UI
+    lang: es
     slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
     show_preview_links: true
     preview_path: "{{slug}}/"
-    folder: "docs/{{fields.folder}}" # The path to the folder where the documents are stored
+    folder: "docs/" # The path to the folder where the documents are stored
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Folder", name: "folder", widget: "string"}
-      - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

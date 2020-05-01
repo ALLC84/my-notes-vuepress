@@ -1,3 +1,6 @@
+const dataButtonSelect = require('./public/data/data-button-select.js')
+const dataSidebarConfig = require('./public/data/data-sidebar-config.js')
+
 module.exports = {
 	title: 'Mis notas',
 	description: 'Mis notas de programación',
@@ -9,23 +12,13 @@ module.exports = {
          {
             text: 'Notas',
             ariaLabel: 'Menu de notas',
-            items: [
-               { text: 'Git/GitHub', link: '/git/' },
-               { text: 'TypeScript', link: '/typescript/' }
-            ]
+            items: dataButtonSelect
          },
 			{ text: 'About', link: 'https://cv.alejandrollorente.com' },
       ],
    
-      
-      sidebar: {
-         '/git/':[
-            ''
-         ],
-         '/typescript/':[
-            ''
-         ],
-      }
-
-      }
+      sidebar: dataSidebarConfig
+   }
 }
+
+

@@ -28,5 +28,11 @@
       "description": "Un framework moderno y simple para crear potentes interfaces.",
       "path": "vuejs",
       "image": "/images/go.jpg"
+	},
+	{
+		"title": "Firebase",
+      "description": "Una potente base de datos en tiempo real.",
+      "path": "firebase",
+      "image": "/images/go.jpg"
 	}
 ]
