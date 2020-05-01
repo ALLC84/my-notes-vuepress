@@ -33,7 +33,6 @@ collections:
 
   - name: 'home' # all the things in one entry, for documentation and quick testing
     label: 'Home Page'
-    folder: 'docs/README.md'
     file: 'docs/README.md'
     create: false
     layout: HomeLayout
