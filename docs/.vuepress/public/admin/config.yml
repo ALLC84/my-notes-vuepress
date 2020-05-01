@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: ALLC84/my-notes-vuepress
   branch: master
   accept_roles: #optional - accepts all users if left out
