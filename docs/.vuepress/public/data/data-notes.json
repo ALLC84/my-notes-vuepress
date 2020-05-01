@@ -1,0 +1,32 @@
+[
+	{ 
+      "title": "Git", 
+      "description": "Control de versiones Git y GitHub.",
+      "path": "git",
+      "image": "/images/go.jpg"
+   },
+	{
+		"title": "JavaScript",
+      "description": "EL lenguaje de progrmación para la web.",
+      "path": "javascript",
+      "image": "/images/go.jpg"
+	},
+	{
+		"title": "TypeScript",
+      "description": "Escribe JavaScript moderno y fuertemente tipado.",
+      "path": "typescript",
+      "image": "/images/go.jpg"
+	},
+	{ 
+      "title": "ReactJS", 
+      "description": "Crea potentes interfaces de usuario" ,
+      "path": "reactjs",
+      "image": "/images/go.jpg"
+   },
+	{
+		"title": "VueJS",
+      "description": "Un framework moderno y simple para crear potentes interfaces.",
+      "path": "vuejs",
+      "image": "/images/go.jpg"
+	}
+]

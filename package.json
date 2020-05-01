@@ -1,0 +1,17 @@
+{
+  "name": "my-notes",
+  "version": "1.0.0",
+  "description": "Single Page Aplication create use Vuepress static site generator and the vue.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  },
+  "homepage": "",
+  "keywords": [],
+  "repository": {}
+}
