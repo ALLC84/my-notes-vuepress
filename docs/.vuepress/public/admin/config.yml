@@ -7,17 +7,17 @@ backend:
     - admin
 
 media_folder: "docs/.vuepress/public/images/"
-public_folder: "../../"
+public_folder: "/images"
 
-# site_url: https://notes-alex.netlify.com
-# display_url: https://notes-alex.netlify.com
+site_url: https://codenotes.netlify.app/
+display_url: https://codenotes.netlify.app/
 
 
 collections:
   - name: "notes" # Used in routes, e.g., /admin/collections/blog
     label: "Notes" # Used in the UI
     slug: "{{slug}}"
-    folder: "{{fields.slug}}" # The path to the folder where the documents are stored
+    folder: "docs/{{fields.slug}}" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     show_preview_links: true
     preview_path: "{{fields.slug}}/README.md"
@@ -25,5 +25,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Folder", name: "folder", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
