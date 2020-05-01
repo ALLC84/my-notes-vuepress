@@ -1,7 +1,8 @@
 <template >
    <div>
+      {{data}}
       <main class="container">
-         <article v-for="(item, index) in listNotes" :key="index">
+         <article v-for="(item, index) in data" :key="index">
             <Card :data="item"/>
          </article>
       </main>
@@ -12,6 +13,10 @@
 <script>
    export default {
       name: 'ListNotes',
+
+      props: [
+         'data'
+      ],
       
       data() {
          return{

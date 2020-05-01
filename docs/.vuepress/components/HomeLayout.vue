@@ -1,12 +1,12 @@
 <template >
    <div class="container">
       <header class="header">
-         <h1 >Mis notas</h1>
-         <h3> Una guia con mis notas sobre programación y mas! </h3>
+         <h1 >{{$frontmatter.title}}</h1>
+         <h3> {{$frontmatter.description}} </h3>
          <hr />
       </header>
       
-      <ListNotes />
+      <ListNotes :data="$frontmatter.data"/>
 
   </div>
 </template>
