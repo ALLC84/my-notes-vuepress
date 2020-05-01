@@ -1,7 +1,7 @@
 backend:
-  # name: test-repo
-  name: git-gateway
-  repo: ALLC84/my-notes-vuepress
+  name: test-repo
+  # name: git-gateway
+  # repo: ALLC84/my-notes-vuepress
   branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
@@ -27,4 +27,18 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", media_library: {config: {multiple: false}}}
       - {label: "Body", name: "body", widget: "markdown"}
+
+
+  - name: "settings"
+    label: "Settings"
+    extension: "json"
+    editor: 
+      preview: false
+    files:
+      - file: "docs/.vuepress/public/data/data-notes.json"
+        label: "List Notes"
+        name: "listnotes"
+        fields:
+          - { name: body, label: Body, widget: code }
