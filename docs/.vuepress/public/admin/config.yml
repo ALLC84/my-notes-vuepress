@@ -9,6 +9,8 @@ backend:
 media_folder: "docs/.vuepress/public/images/"
 public_folder: "/images"
 
+publish_mode: editorial_workflow
+
 site_url: https://codenotes.netlify.app/
 display_url: https://codenotes.netlify.app/
 
@@ -17,10 +19,10 @@ collections:
   - name: "notes" # Used in routes, e.g., /admin/collections/blog
     label: "Notes" # Used in the UI
     slug: "{{slug}}"
-    folder: "docs/{{fields.slug}}" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     show_preview_links: true
-    preview_path: "{{fields.slug}}/README.md"
+    preview_path: "{{slug}}/"
+    folder: "docs/{{fields.folder}}" # The path to the folder where the documents are stored
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
