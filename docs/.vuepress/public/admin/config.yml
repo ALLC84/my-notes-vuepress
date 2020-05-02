@@ -1,7 +1,7 @@
 backend:
-  # name: test-repo
-  name: git-gateway
-  repo: ALLC84/my-notes-vuepress
+  name: test-repo
+  # name: git-gateway
+  # repo: ALLC84/my-notes-vuepress
   branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
@@ -59,14 +59,13 @@ collections:
   # JSON SETTING BUTTON LINKS
   - name: "settings"
     label: "Settings"
-    extension: "json"
-    editor:
-      preview: false
-
     files:
-      - file: "docs/.vuepress/data/data-button-select.json"
+      - file: "docs/.vuepress/public/settings/data-button-select.json"
         label: "Button Links"
         name: "links"
+        extension: "json"
+        editor:
+          preview: false
 
         fields: 
           - name: listlinks

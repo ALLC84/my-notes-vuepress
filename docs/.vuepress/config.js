@@ -1,5 +1,5 @@
 
-const dataButtonSelect = require('./public/data/data-button-select.json')
+const dataButtonSelect = require('./public/settings/data-button-select.json')
 // const dataSidebarConfig = require('./public/data/data-sidebar-config.json')
 
 module.exports = {
