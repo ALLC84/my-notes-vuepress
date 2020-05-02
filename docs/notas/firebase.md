@@ -8,3 +8,9 @@ sidebar: auto
 # Firebase
 
 ## Base de datos en tiempo real
+
+```javascript
+cons saludar = () => {
+
+}
+```
