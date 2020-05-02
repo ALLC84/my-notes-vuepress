@@ -8,7 +8,7 @@ cards:
     title: "Git "
     description: Control de versiones
     path: notas/git
-    image: /images/go.jpg
+    image: /images/gitgithub.jpg
   - type: card
     title: Firebase
     description: Base de datos en tiempo real
