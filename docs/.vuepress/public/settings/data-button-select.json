@@ -2,7 +2,19 @@
   "listlinks": [
     {
       "text": "git",
-      "link": "/notes/git"
+      "link": "/notas/git"
+    },
+    {
+      "text": "TypeScript",
+      "link": "/notas/typescript"
+    },
+    {
+      "text": "Firebase",
+      "link": "/notas/firebase"
+    },
+    {
+      "text": "JavaScript",
+      "link": "/notas/javascript"
     }
   ]
 }
