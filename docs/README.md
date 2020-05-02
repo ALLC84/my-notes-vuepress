@@ -13,7 +13,7 @@ cards:
     title: Firebase
     description: Base de datos en tiempo real
     path: notas/firebase
-    image: /images/home_1x.jpg
+    image: /images/img-card-firebase.jpg
   - type: card
     title: TypeScript
     description: Escribe JavaScript moderno y fuertemente tipado.
