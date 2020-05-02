@@ -18,7 +18,7 @@ cards:
     title: TypeScript
     description: Escribe JavaScript moderno y fuertemente tipado.
     path: notas/typescript
-    image: /images/hero.png
+    image: /images/img-card-typescript.jpg
   - type: card
     title: Vuepress
     description: Crea páginas de documentación con Vue.
