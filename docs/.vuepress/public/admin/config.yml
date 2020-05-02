@@ -1,7 +1,7 @@
 backend:
-  # name: test-repo
-  name: git-gateway
-  repo: ALLC84/my-notes-vuepress
+  name: test-repo
+  # name: git-gateway
+  # repo: ALLC84/my-notes-vuepress
   branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
@@ -40,11 +40,11 @@ collections:
               - { label: 'Path', name: 'path', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
       - label: 'Meta'
-          name: 'meta'
-          widget: 'list'
-          fields:
-            - { label: 'Name', name: 'name', widget: 'string', required: false, default: "description / keywords / ETC" }
-            - { label: 'Content', name: 'content', widget: 'string', required: false, }
+        name: 'meta'
+        widget: 'list'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string', required: false, default: "description / keywords / ETC" }
+          - { label: 'Content', name: 'content', widget: 'string', required: false, }
 
 
   # CREATE AND EDIT PAGES/NOTES
