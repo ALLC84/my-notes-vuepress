@@ -23,6 +23,6 @@ cards:
     title: Vuepress
     description: Crea páginas de documentación con Vue.
     path: /notas/vuepress
-    image: /images/img-card-vuepress.jpg
+    image: /images/go.jpg
 footer: Copyright © 2020 - Alejandro Llorente
 ---
