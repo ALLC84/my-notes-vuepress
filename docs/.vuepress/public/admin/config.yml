@@ -7,7 +7,7 @@ backend:
     - admin
 
 media_folder: "docs/.vuepress/public/images/"
-public_folder: "docs/.vuepress/public/"
+public_folder: "/images/"
 
 publish_mode: editorial_workflow
 
@@ -49,7 +49,7 @@ collections:
     sidebar: auto
     slug: "notas/{{slug}}"
     create: true # Allow users to create new documents in this collection
-    folder: "docs/notas" # The path to the folder where the documents are stored
+    folder: "docs/notas/" # The path to the folder where the documents are stored
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
