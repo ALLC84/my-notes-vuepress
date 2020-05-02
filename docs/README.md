@@ -8,12 +8,12 @@ cards:
     title: "Git "
     description: Control de versiones
     path: notas/git
-    image: /images/go.jpg
+    image: /images/img-card-git.jpg
   - type: card
     title: Firebase
     description: Base de datos en tiempo real
     path: notas/firebase
-    image: /images/home_1x.jpg
+    image: /images/img-card-firebase.jpg
   - type: card
     title: TypeScript
     description: Escribe JavaScript moderno y fuertemente tipado.
