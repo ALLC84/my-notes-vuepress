@@ -1,5 +1,6 @@
-const dataButtonSelect = require('./public/data/data-button-select.js')
-const dataSidebarConfig = require('./public/data/data-sidebar-config.js')
+
+const dataButtonSelect = require('./public/data/data-button-select.json')
+// const dataSidebarConfig = require('./public/data/data-sidebar-config.json')
 
 module.exports = {
 	title: 'Mis notas',
@@ -17,7 +18,7 @@ module.exports = {
 			{ text: 'About', link: 'https://cv.alejandrollorente.com' },
       ],
    
-      sidebar: dataSidebarConfig
+      // sidebar: dataSidebarConfig
    }
 }
 

@@ -1,7 +1,7 @@
 backend:
-  # name: test-repo
-  name: git-gateway
-  repo: ALLC84/my-notes-vuepress
+  name: test-repo
+  # name: git-gateway
+  # repo: ALLC84/my-notes-vuepress
   branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
@@ -16,21 +16,7 @@ display_url: https://codenotes.netlify.app/
 
 
 collections:
-  - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
-    lang: es
-    slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    show_preview_links: true
-    preview_path: "{{slug}}/"
-    folder: "docs/" # The path to the folder where the documents are stored
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", media_library: {config: {multiple: false}}}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-
+  # EDIT HOME PAGE
   - name: 'home' # all the things in one entry, for documentation and quick testing
     label: 'Home Page'
     folder: 'docs/'
@@ -42,8 +28,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }   
       - { label: 'Description', name: 'description', widget: 'string' }   
 
-      - label: 'Data'
-        name: 'data'
+      - label: 'Cards'
+        name: 'cards'
         widget: 'list'
         types:
           - label: 'Card'
@@ -54,3 +40,38 @@ collections:
               - { label: 'Description', name: 'description', widget: 'string' }
               - { label: 'Path', name: 'path', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+
+
+  # CREATE AND EDIT PAGES/NOTES
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    lang: es
+    sidebar: auto
+    slug: "notas/{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    folder: "docs/notas" # The path to the folder where the documents are stored
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  # JSON SETTING BUTTON LINKS
+  - name: "settings"
+    label: "Settings"
+    extension: "json"
+    editor:
+      preview: false
+
+    files:
+      - file: "docs/.vuepress/data/data-button-select.json"
+        label: "Button Links"
+        name: "links"
+
+        fields: 
+          - name: listlinks
+            label: List Links
+            widget: list
+            fields:
+              - { label: 'Text', name: 'text', widget: 'string' }
+              - { label: 'Link', name: 'link', widget: 'string' }

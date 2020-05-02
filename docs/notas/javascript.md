@@ -1,6 +1,7 @@
 ---
 title: JavaScript
 description: El lenguaje de la web
+sidebar: auto
 ---
 # JavaScript
 

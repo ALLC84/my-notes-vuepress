@@ -1,10 +1,8 @@
 <template >
-   <div>
-      <main class="container">
-         <article v-for="(item, index) in data" :key="index">
-            <Card :data="item"/>
-         </article>
-      </main>
+   <div class="card-container">
+      <article v-for="(item, index) in data" :key="index">
+         <Card :data="item"/>
+      </article>
    </div>
 </template>
 
@@ -21,28 +19,22 @@
 
 
 <style scoped>
-.container{
+.card-container{
    display: grid;
    gap: 1rem;
    grid-template-columns: 1fr;
-   margin-top: 3rem;
+   width: 100%;
 }
 @media screen and (min-width: 576px) {
-   .container{
+   .card-container{
       grid-template-columns: 1fr 1fr ;
       gap: 1.4rem;
    }
 }
 @media screen and (min-width: 678px) {
-   .container{
+   .card-container{
       grid-template-columns: 1fr 1fr 1fr;
       gap: 1.8rem;
-   }
-}
-@media screen and (min-width: 992px) {
-   .container{
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 2.2rem;
    }
 }
 </style>

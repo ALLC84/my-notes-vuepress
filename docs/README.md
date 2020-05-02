@@ -1,21 +1,25 @@
 ---
+lang: es
 layout: HomeLayout
-title: My Notes
-description: Una guia con mis notas sobre programación y mas!
-data:
+title: Mis Notas
+description: Una guia con mis notas sobre programación web!
+
+cards:
   - type: card
     title: "Git "
     description: Control de versiones
-    path: git
+    path: notas/git
     image: /images/go.jpg
   - type: card
     title: Firebase
     description: Base de datos en tiempo real
-    path: firebase
+    path: notas/firebase
     image: /images/home_1x.jpg
   - type: card
     title: TypeScript
     description: Escribe JavaScript moderno y fuertemente tipado.
-    path: typescript
+    path: notas/typescript
     image: /images/hero.png
+
+footer: Copyright © 2020 - Alejandro Llorente
 ---

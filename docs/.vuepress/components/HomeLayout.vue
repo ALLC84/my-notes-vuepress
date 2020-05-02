@@ -1,13 +1,21 @@
 <template >
    <div class="container">
       <header class="header">
-         <h1 >{{$frontmatter.title}}</h1>
-         <h3> {{$frontmatter.description}} </h3>
-         <hr />
+         <h1>
+            {{$frontmatter.title}}
+         </h1>
+         <h3 class="header__description"> 
+            {{$frontmatter.description}} 
+         </h3>
       </header>
       
-      <ListNotes :data="$frontmatter.data"/>
+      <main class="main">
+         <ListNotes :data="$frontmatter.cards"/>
+      </main>
 
+      <footer class="footer">
+         {{$frontmatter.footer}}
+      </footer>
   </div>
 </template>
 
@@ -23,12 +31,28 @@
 
 <style scoped>
 .container {
-   max-width: 1200px;
+   position: relative;
+   max-width: 960px;
+   /* min-height: calc(100vh - 6rem); */
    margin-left: auto;
    margin-right: auto;
    padding: 3rem 1rem;
 }
 .header {
    text-align: center;
+}
+.header__description {
+   color: #6a8bad;
+}
+.main {
+   margin: 3rem 0;
+   padding-bottom: 3rem;
+   border-bottom: .03rem solid rgb(218, 218, 218);
+}
+.footer {
+   text-align: center;
+   padding: 0 1rem;
+   color: #6a8bad;
+   font-size: .9em;
 }
 </style>
