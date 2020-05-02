@@ -23,8 +23,8 @@ collections:
     file: 'docs/README.md'
     create: false
     layout: HomeLayout
-    lang: es
     fields:
+      - { label: "Idioma", name: "lang", widget: "string", default: "es" }
       - { label: 'Title', name: 'title', widget: 'string' }   
       - { label: 'Description', name: 'description', widget: 'string' }   
       - label: 'Cards'
@@ -35,17 +35,21 @@ collections:
             name: 'card'
             widget: 'object'
             fields:
-              - { label: "Idioma", name: "lang", widget: "string", default: "es" }
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Description', name: 'description', widget: 'string' }
               - { label: 'Path', name: 'path', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+      - label: 'Meta'
+          name: 'meta'
+          widget: 'list'
+          fields:
+            - { label: 'Name', name: 'name', widget: 'string', required: false, default: "description / keywords / ETC" }
+            - { label: 'Content', name: 'content', widget: 'string', required: false, }
 
 
   # CREATE AND EDIT PAGES/NOTES
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
-    sidebar: auto
     slug: "notas/{{slug}}"
     create: true # Allow users to create new documents in this collection
     folder: "docs/notas/" # The path to the folder where the documents are stored
