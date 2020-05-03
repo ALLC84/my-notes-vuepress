@@ -58,13 +58,15 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Sidebar", name: "sidebar", widget: "string", default: "auto" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      
       - label: 'Meta'
         name: 'meta'
         widget: 'list'
         fields:
           - { label: 'Name', name: 'name', widget: 'string', required: false, default: "description / keywords / ETC" }
           - { label: 'Content', name: 'content', widget: 'string', required: false, }
+
+      - { label: "Body", name: "body", widget: "markdown" }
 
           
 

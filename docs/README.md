@@ -3,6 +3,7 @@ lang: es
 layout: HomeLayout
 title: Mis Notas
 description: Una guia con mis notas sobre programación web!
+
 cards:
   - type: card
     title: "Git "
@@ -24,11 +25,13 @@ cards:
     description: Crea páginas de documentación con Vue.
     path: /notas/vuepress
     image: /images/img-card-vuepress.jpg
-footer: Copyright © 2020 - Alejandro Llorente
+
 meta:
   - name: description
     content: Notes de programación web
   - name: keywords
     content: "Notas de programación, Vue, TypeScript, JavaScript, CSS, HTML, Git,
       Vuepress, Gatsby, React.  "
+
+footer: Copyright © 2020 - Alejandro Llorente
 ---
