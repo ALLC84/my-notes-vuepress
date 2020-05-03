@@ -9,9 +9,10 @@ meta:
   - name: keywords
     content: Vue, Vuepress, Frontend ,JavaScript, Netlify, CMS
 ---
+
+
 # Vuepress
 **Te muestro como he hecho esta web de notas.**
-
 
 ## Instalación
 
@@ -217,7 +218,6 @@ Será el componente principal, encargado de renderizar la información del archi
 .container {
    position: relative;
    max-width: 960px;
-   /* min-height: calc(100vh - 6rem); */
    margin-left: auto;
    margin-right: auto;
    padding: 3rem 1rem;
