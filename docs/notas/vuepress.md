@@ -13,13 +13,13 @@ meta:
 
 ## Instalación
 
-```javascript
+```sh
 # instalación global
 yarn global add vuepress # O npm install -g vuepress
 ```
 
 ## Inicia un proyecto
-```
+```sh
 # Crea una carpeta para el proyecto
 mkdir <nombre-carpeta> && cd <nombre-carpeta>
 
