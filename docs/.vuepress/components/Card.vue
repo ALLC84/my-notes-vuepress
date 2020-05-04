@@ -1,20 +1,20 @@
 <template>
 	
    <div class="card">
-      <div class="img-container">
+      <div class="card__image-container">
          <router-link :to="data.path">
-            <img :src="data.image" :alt="data.title"/>
+            <img class="card__image" :src="data.image" :alt="data.title"/>
          </router-link>
       </div>
-      <div class="body">
+      <div class="card__body">
          <router-link :to="data.path">
-            <h3 class="title" >{{ data.title }}</h3>
+            <h3 class="card__body-title" >{{ data.title }}</h3>
          </router-link>
-         <p class="content">{{data.description}}</p>
+         <p class="card__body-content">{{data.description}}</p>
       </div>
-      <footer class="footer">
+      <footer class="card__footer">
          <Avatar />
-         <router-link :to="data.path" class="button">LEER</router-link>
+         <router-link :to="data.path" class="card__footer-button">Leer</router-link>
       </footer>
    </div>
    
@@ -43,14 +43,14 @@
    overflow: hidden;
    box-shadow: 0 2px 4px rgba(174,190,205,.3);
 }
-.img-container {
+.card__image-container {
    position: relative;
    width: 100%;
    padding-bottom: 56.25%;
    border-top-left-radius: .5rem;
    border-top-right-radius: .5rem;
 }
-.img-container img {
+.card__image {
 	width: 100%;
    height: 100%;
 	position: absolute;
@@ -58,33 +58,33 @@
 	left: 0;
 	object-fit: cover;
 }
-.body {
+.card__body {
    display: flex;
    flex-direction: column;
    padding: 0 1rem;
    flex-grow: 1;
 }
-.title {
+.card__body-title {
    margin: 0;
    padding-top: 1rem;
    color: rgb(65, 64, 64);
    font-weight: 900;
 }
-.content {
+.card__body-content {
    margin-top: .3rem;
 }
-.footer {
+.card__footer {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: .1rem 1rem;
    width: -webkit-fill-available;
-   background: rgb(243, 243, 243);
+   background: rgb(250, 250, 250);
    border-bottom-left-radius: .5rem;
    border-bottom-right-radius: .5rem;
 }
-.button {
-   background: rgb(243, 243, 243);
+.card__footer-button {
+   background: rgb(250, 250, 250);
    color: #3eaf7c;
    border: none;
    outline:none;

@@ -1,7 +1,7 @@
 <template>
 
    <div class="avatar">
-      <img src="/images/imgAbout.jpg" />
+      <img class="avatar__image" src="/images/imgAbout.jpg" />
    </div>
 
 </template>
@@ -20,7 +20,7 @@ export default {
    border: .1rem solid white;
    overflow: hidden;
 }
-.avatar img {
+.avatar__image {
    max-width: 100%;
 }
 </style>
