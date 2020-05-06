@@ -39,7 +39,7 @@ cards:
     title: CSS - GRID
     description: La mejor solución para crear layous.
     path: /notas/css-grid
-    image: /images/img-card-css-grid.jpg
+    image: /images/img-card-css-grid-1.jpg
 
 meta:
   - name: description
