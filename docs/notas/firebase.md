@@ -474,6 +474,8 @@ firebase init
 En la configuracion de firebase ponemos la carpeta pública que será utilizada en producción.
 
 Esta carpeta se utilizará para hacer el deploy ( en el caso de react es ==> build)
+
+Escogemos el proyecto de firebase donde haremos el deploy.
 :::
 
 ### Deploy

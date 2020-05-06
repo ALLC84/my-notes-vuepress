@@ -25,6 +25,21 @@ cards:
     description: Crea páginas de documentación con Vue.
     path: /notas/vuepress
     image: /images/img-card-vuepress.jpg
+  - type: card
+    title: Api Rest 
+    description: Api en cloud functions firebase.
+    path: /notas/api-cloud-firebase
+    image: /images/img-card-api-cloud-roja.jpg
+  - type: card
+    title: Vim 
+    description: Editor de texto para terminal.
+    path: /notas/vim
+    image: /images/img-card-vim.jpg
+  - type: card
+    title: CSS - GRID
+    description: La mejor solución para crear layous.
+    path: /notas/css-grid
+    image: /images/img-card-css-grid.jpg
 
 meta:
   - name: description
