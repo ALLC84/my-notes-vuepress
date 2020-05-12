@@ -41,12 +41,6 @@ admin.initializeApp({
 npm install -g firebase-tools
 ```
 
-### Proyecto de npm
-
-```sh
-npm init --y
-```
-
 ### Login firebase
 
 ```sh
@@ -75,16 +69,19 @@ Selecciona `JavaScript` como lenguaje.
 │   ├── package.json
 │   └── permissions.json # Archivo .json descargado de firebase
 │
-├── node_modules
 ├── .firebaserc
-├── .gitignore
-└── package.json
+└── .gitignore
 
 ```
 
 ## Instalaciones necesarias
 
 Instalaremos las dependencias que utilizaremos en este proyecto.
+
+Primero nos movmeos a la carpete functions
+```sh
+cd functions
+```
 
 ### Express
 Para crear nuestro servidor en node.
@@ -104,8 +101,6 @@ npm i cors
 Ejecutamos el proyecto en nuestro entorno local
 
 ```sh
-cd functions
-
 npm run serve
 ```
 

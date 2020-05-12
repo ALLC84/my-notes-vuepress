@@ -5,16 +5,32 @@
       "link": "/notas/git"
     },
     {
-      "text": "TypeScript",
-      "link": "/notas/typescript"
-    },
-    {
       "text": "Firebase",
       "link": "/notas/firebase"
     },
     {
+      "text": "TypeScript",
+      "link": "/notas/typescript"
+    },
+    {
       "text": "Vuepress",
       "link": "/notas/vuepress"
+    },
+    {
+      "text": "Api Rest",
+      "link": "/notas/api-cloud-firebase"
+    },
+    {
+      "text": "Vim",
+      "link": "/notas/vim"
+    },
+    {
+      "text": "CSS - GRID",
+      "link": "/notas/css-grid"
+    },
+    {
+      "text": "Zsh | ho-my-zsh",
+      "link": "/notas/zsh"
     }
   ]
 }
