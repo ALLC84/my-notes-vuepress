@@ -2,35 +2,35 @@
   "listlinks": [
     {
       "text": "git",
-      "link": "/notas/git"
+      "link": "/notas/git/"
     },
     {
       "text": "Firebase",
-      "link": "/notas/firebase"
+      "link": "/notas/firebase/"
     },
     {
       "text": "TypeScript",
-      "link": "/notas/typescript"
+      "link": "/notas/typescript/"
     },
     {
       "text": "Vuepress",
-      "link": "/notas/vuepress"
+      "link": "/notas/vuepress/"
     },
     {
       "text": "Api Rest",
-      "link": "/notas/api-cloud-firebase"
+      "link": "/notas/api-cloud-firebase/"
     },
     {
       "text": "Vim",
-      "link": "/notas/vim"
+      "link": "/notas/vim/"
     },
     {
       "text": "CSS - GRID",
-      "link": "/notas/css-grid"
+      "link": "/notas/css-grid/"
     },
     {
-      "text": "Zsh | ho-my-zsh",
-      "link": "/notas/zsh"
+      "text": "ZSH",
+      "link": "/notas/zsh/"
     }
   ]
 }

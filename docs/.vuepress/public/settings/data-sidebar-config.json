@@ -1,0 +1,96 @@
+{
+	"/notas/git/": [
+		"",
+		"instalacion",
+		"configuracion",
+		"cambios-de-estado",
+		"ramas",
+		"cambios-en-archivos",
+		"supresion-de-seguimiento",
+		"detener-restaurar",
+		"historial-de-cambios",
+		"comandos-personalizados",
+		"redo-commits",
+		"sincronizar-cambios",
+		"integrar-proyecto-github",
+		"github-pages"
+	],
+	"/notas/api-cloud-firebase/": [
+		"",
+		"requerimientos",
+		"inicio",
+		"instalaciones",
+		"crear-api",
+		"deploy"
+	],
+	"/notas/vim/": [
+		"",
+		"configuracion",
+		"juego",
+		"basicos",
+		"navegacion",
+		"buscar",
+		"reemplazar"
+	],
+	"/notas/css-grid/": [
+		"",
+		"conceptos",
+		"terminologia",
+		"filas-columnas",
+		"tracks",
+		"grid-items",
+		"grid-area",
+		"funciones",
+		"tracks-flexibles",
+		"alineacion"
+	],
+	"/notas/typescript/": [
+		"",
+		"instalacion",
+		"tipos-de-datos",
+		"forzar-tipos",
+		"funciones",
+		"objetos",
+		"ts-config",
+		"namespace-modulos",
+		"depuracion",
+		"caracteristicas-es6",
+		"clases",
+		"decoradores",
+		"metodos-de-clase",
+		"poo"
+	],
+	"/notas/firebase/": [
+		"",
+		"configuracion",
+		"obtener-datos",
+		"insertar-datos",
+		"detectar-cambios",
+		"actualizar-datos",
+		"eliminar-datos",
+		"cli",
+		"crud",
+		"autenticacion",
+		"cors",
+		"hosting"
+	],
+	"/notas/vuepress/": [
+		"",
+		"instalacion",
+		"iniciar-proyecto",
+		"estructura-proyecto",
+		"configuracion",
+		"componentes",
+		"notas",
+		"resultado-final"
+	],
+	"/notas/zsh/": [
+		"",
+		"oh-my-zsh",
+		"theme",
+		"plugin",
+		"extenciones",
+		"alias",
+		"resultado-final"
+	]
+}

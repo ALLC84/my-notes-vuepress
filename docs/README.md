@@ -8,49 +8,49 @@ cards:
   - type: card
     title: "Git "
     description: Control de versiones
-    path: notas/git
+    path: notas/git/
     image: /images/img-card-git.jpg
 
   - type: card
     title: Firebase
     description: Base de datos en tiempo real
-    path: notas/firebase
+    path: notas/firebase/
     image: /images/img-card-firebase.jpg
 
   - type: card
     title: TypeScript
     description: Escribe JavaScript moderno y fuertemente tipado.
-    path: notas/typescript
+    path: notas/typescript/
     image: /images/img-card-typescript.jpg
 
   - type: card
     title: Vuepress
     description: Crea páginas de documentación con Vue.
-    path: /notas/vuepress
+    path: /notas/vuepress/
     image: /images/img-card-vuepress.jpg
 
   - type: card
     title: Api Rest 
     description: Api en cloud functions firebase.
-    path: /notas/api-cloud-firebase
+    path: /notas/api-cloud-firebase/
     image: /images/img-card-api-cloud-roja.jpg
 
   - type: card
     title: Vim 
     description: Editor de texto para terminal.
-    path: /notas/vim
+    path: /notas/vim/
     image: /images/img-card-vim.jpg
 
   - type: card
     title: CSS - GRID
     description: La mejor solución para crear layous.
-    path: /notas/css-grid
+    path: /notas/css-grid/
     image: /images/img-card-css-grid-1.jpg
 
   - type: card
     title: Zsh | ho-my-zsh
     description: Resaltado de sintaxis y funcionalidad extra para nuestra terminal.
-    path: /notas/zsh
+    path: /notas/zsh/
     image: /images/img-card-zsh.jpg
 
 
